@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  KeysToHana
+//
+//  Created by Prince on 10/18/16.
+//  Copyright © 2016 Steven, Media. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+#define     AVAILABLE_REGION_DISTANCE   30
+
+#include "GlobalData.h"
+#include "GlobalFunction.h"
+#include "MdlMusic.h"
+#import "MdlGeofence.h"
+#import "TestData.h"
